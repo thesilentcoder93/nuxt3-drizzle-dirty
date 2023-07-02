@@ -1,0 +1,27 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "drizzle:push": "drizzle-kit push:sqlite"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "0.6.6",
+    "@types/node": "^20.3.3",
+    "@types/prettier": "^2.7.3",
+    "drizzle-kit": "^0.19.3",
+    "nuxt": "^3.6.1",
+    "prettier": "^2.8.8",
+    "prettier-plugin-tailwindcss": "^0.3.0"
+  },
+  "dependencies": {
+    "@nuxthq/ui": "^2.5.0",
+    "@types/better-sqlite3": "^7.6.4",
+    "better-sqlite3": "^8.4.0",
+    "drizzle-orm": "^0.27.0"
+  }
+}
