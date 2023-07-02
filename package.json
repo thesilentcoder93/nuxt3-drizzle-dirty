@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "nuxt3-drizzleorm",
   "private": true,
   "scripts": {
     "build": "nuxt build",
